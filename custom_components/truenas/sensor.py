@@ -47,7 +47,7 @@ def _create_entities(hass: HomeAssistant, entry: dict) -> List[Entity]:
     return entities
 
 
-class DiskTemperatureSensor(FreeNASDiskEntity, FreeNASSensor, Entity):
+class DiskTemperatureSensor(TrueNASDiskEntity, TrueNASSensor, Entity):
     _disk: Disk
 
     def __init__(
