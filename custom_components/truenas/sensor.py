@@ -14,8 +14,8 @@ from pyfreenas.disk import (
 from typing import Callable, List, Optional
 
 from . import (
-    FreeNASSensor,
-    FreeNASDiskEntity,
+    TrueNASSensor,
+    TrueNASDiskEntity,
 )
 from .const import DOMAIN
 
